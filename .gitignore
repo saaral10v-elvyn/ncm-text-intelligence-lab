@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model checkpoints
+data/*
+!data/.gitkeep
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
